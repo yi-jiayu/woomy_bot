@@ -18,7 +18,7 @@ def build_result(rota: Rotation, t):
         dt = rota.start_time - t
         verb = 'Starts'
     hours = dt.seconds // 3600
-    minutes = dt.seconds % 60
+    minutes = (dt.seconds % 3600) // 60
     msg = f'{verb} in {hours} h {minutes} m'
     return {
         "type": "article",
