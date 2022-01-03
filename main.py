@@ -74,7 +74,7 @@ class Update(BaseModel):
     inline_query: Optional[InlineQuery]
 
 
-client = httpx.AsyncClient()
+client = httpx.AsyncClient(headers={"user-agent": "https://github.com/yi-jiayu/woomy_bot"})
 splatoon = Splatoon(client)
 
 
