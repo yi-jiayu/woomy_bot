@@ -8,6 +8,7 @@ class SalmonRotation:
     end_time: datetime
     stage: str
     weapons: list[str]
+    thumbnail: str
 
 
 @dataclass
@@ -16,6 +17,7 @@ class LobbyRotation:
     end_time: datetime
     rule: str
     stages: tuple[str, str]
+    thumbnails: tuple[str, str]
 
 
 @dataclass
@@ -38,7 +40,8 @@ class Splatoon:
             end_time = datetime.fromtimestamp(rotation['end_time'], timezone.utc)
             stage = rotation['stage']['name']
             weapons = [weapon['weapon']['name'] for weapon in rotation['weapons']]
-            rotations.append(SalmonRotation(start_time, end_time, stage, weapons))
+            thumbnail = rotation['stage']['image']
+            rotations.append(SalmonRotation(start_time, end_time, stage, weapons, thumbnail))
         return rotations
 
     async def lobby_schedule(self) -> LobbySchedule:
@@ -50,7 +53,8 @@ class Splatoon:
             end_time = datetime.fromtimestamp(raw['end_time'], timezone.utc)
             rule = raw['rule']['name']
             stages: tuple[str, str] = (raw['stage_a']['name'], raw['stage_b']['name'])
-            return LobbyRotation(start_time, end_time, rule, stages)
+            thumbnails: tuple[str, str] = (raw['stage_a']['image'], raw['stage_b']['image'])
+            return LobbyRotation(start_time, end_time, rule, stages, thumbnails)
 
         return LobbySchedule(
             gachi=[build_rotation(r) for r in data['gachi']],
