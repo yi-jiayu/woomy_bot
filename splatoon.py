@@ -35,11 +35,20 @@ class Splatoon:
         res = await self.client.get('https://splatoon2.ink/data/coop-schedules.json')
         data = res.json()
         rotations = []
+
+        def weapon_name(weapon):
+            if weapon['id'] == '-1':
+                return '?'
+            elif weapon['id'] == '-2':
+                return '??'
+            else:
+                return weapon['weapon']['name']
+
         for rotation in data['details']:
             start_time = datetime.fromtimestamp(rotation['start_time'], timezone.utc)
             end_time = datetime.fromtimestamp(rotation['end_time'], timezone.utc)
             stage = rotation['stage']['name']
-            weapons = [weapon['weapon']['name'] for weapon in rotation['weapons']]
+            weapons = [weapon_name(weapon) for weapon in rotation['weapons']]
             thumbnail = rotation['stage']['image']
             rotations.append(SalmonRotation(start_time, end_time, stage, weapons, thumbnail))
         return rotations
