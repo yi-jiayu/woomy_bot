@@ -101,7 +101,7 @@ async def webhook(update: Update):
             "method": "answerInlineQuery",
             "inline_query_id": inline_query_id,
             "results": results,
-            "cache_time": 0,
+            "cache_time": 30,
         }
         return res
     return {}
