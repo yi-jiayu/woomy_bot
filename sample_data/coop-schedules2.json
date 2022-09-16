@@ -1,0 +1,110 @@
+{
+  "schedules": [
+    {
+      "end_time": 1641600000,
+      "start_time": 1641470400
+    },
+    {
+      "end_time": 1641772800,
+      "start_time": 1641621600
+    },
+    {
+      "end_time": 1641924000,
+      "start_time": 1641794400
+    },
+    {
+      "end_time": 1642075200,
+      "start_time": 1641945600
+    },
+    {
+      "start_time": 1642096800,
+      "end_time": 1642226400
+    }
+  ],
+  "details": [
+    {
+      "start_time": 1641470400,
+      "stage": {
+        "image": "/images/coop_stage/6d68f5baa75f3a94e5e9bfb89b82e7377e3ecd2c.png",
+        "name": "Lost Outpost"
+      },
+      "weapons": [
+        {
+          "id": "3030",
+          "weapon": {
+            "id": "3030",
+            "image": "/images/weapon/2835f6d61a4296b4ac3876337884a0c453a4fa4f.png",
+            "name": "Bloblobber",
+            "thumbnail": "/images/weapon/e8d17d8b73fc1eaa3e3672c54e8800163d909ede.png"
+          }
+        },
+        {
+          "id": "210",
+          "weapon": {
+            "image": "/images/weapon/cfafc8bc42bcd89058fdb22b7b943fb9f893adb8.png",
+            "thumbnail": "/images/weapon/5e26f6a8217836c25ac0c75f05b13e6051bdc644.png",
+            "name": "Blaster",
+            "id": "210"
+          }
+        },
+        {
+          "weapon": {
+            "image": "/images/weapon/202724be5bb5e59457227d087d7c48a32c01db24.png",
+            "thumbnail": "/images/weapon/41001d5ba8ce0f05aaa00f9a0d6368b1fa109c73.png",
+            "name": "L-3 Nozzlenose",
+            "id": "300"
+          },
+          "id": "300"
+        },
+        {
+          "id": "2010",
+          "weapon": {
+            "name": "Splat Charger",
+            "thumbnail": "/images/weapon/d359c8312037a0c98db73cb0a4122cf2c5665f77.png",
+            "image": "/images/weapon/1ed94885bef2b0e498ed4dd76bea9064c85cfc94.png",
+            "id": "2010"
+          }
+        }
+      ],
+      "end_time": 1641600000
+    },
+    {
+      "stage": {
+        "image": "/images/coop_stage/65c68c6f0641cc5654434b78a6f10b0ad32ccdee.png",
+        "name": "Spawning Grounds"
+      },
+      "start_time": 1641621600,
+      "weapons": [
+        {
+          "id": "-1",
+          "coop_special_weapon": {
+            "name": "Random",
+            "image": "/images/coop_weapons/746f7e90bc151334f0bf0d2a1f0987e311b03736.png"
+          }
+        },
+        {
+          "id": "-1",
+          "coop_special_weapon": {
+            "image": "/images/coop_weapons/746f7e90bc151334f0bf0d2a1f0987e311b03736.png",
+            "name": "Random"
+          }
+        },
+        {
+          "id": "-1",
+          "coop_special_weapon": {
+            "image": "/images/coop_weapons/746f7e90bc151334f0bf0d2a1f0987e311b03736.png",
+            "name": "Random"
+          }
+        },
+        {
+          "coop_special_weapon": {
+            "image": "/images/coop_weapons/746f7e90bc151334f0bf0d2a1f0987e311b03736.png",
+            "name": "Random"
+          },
+          "id": "-1"
+        }
+      ],
+      "end_time": 1641772800
+    }
+  ]
+}
