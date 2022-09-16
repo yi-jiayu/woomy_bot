@@ -1,0 +1,118 @@
+{
+  "details": [
+    {
+      "weapons": [
+        {
+          "id": "30",
+          "weapon": {
+            "id": "30",
+            "name": "Aerospray MG",
+            "image": "/images/weapon/c6ab7ebff7af7f7604eb53a12851da880b1ec2c7.png",
+            "thumbnail": "/images/weapon/33b212a5ed9d0ab13bc06efa634ce52e8560b68b.png"
+          }
+        },
+        {
+          "id": "4000",
+          "weapon": {
+            "thumbnail": "/images/weapon/585e0e72053689bbab848d97ec07bac4ea769e68.png",
+            "image": "/images/weapon/2a1c5ca0e68919b4d655bd860cac3b2942b95498.png",
+            "id": "4000",
+            "name": "Mini Splatling"
+          }
+        },
+        {
+          "weapon": {
+            "id": "3040",
+            "name": "Explosher",
+            "image": "/images/weapon/6f1c2a339db6ec0dccb65704adee2db93c768245.png",
+            "thumbnail": "/images/weapon/bf0d4b5ddc35a533fc5080d025707f386b2a5daa.png"
+          },
+          "id": "3040"
+        },
+        {
+          "id": "250",
+          "weapon": {
+            "id": "250",
+            "name": "Rapid Blaster Pro",
+            "image": "/images/weapon/8f64580bb033ba86fa0179179cfeb56b5544fda6.png",
+            "thumbnail": "/images/weapon/91208c6fe9fc4e62e81412d6e772fc696b1a7317.png"
+          }
+        }
+      ],
+      "start_time": 1641168000,
+      "stage": {
+        "image": "/images/coop_stage/e9f7c7b35e6d46778cd3cbc0d89bd7e1bc3be493.png",
+        "name": "Salmonid Smokeyard"
+      },
+      "end_time": 1641297600
+    },
+    {
+      "weapons": [
+        {
+          "weapon": {
+            "thumbnail": "/images/weapon/7fa3c37a222e3acd2e41cd8c7554a94b27a9f46b.png",
+            "image": "/images/weapon/7d6032f0ceee14c4607385b848c6e486b84a2865.png",
+            "id": "5020",
+            "name": "Glooga Dualies"
+          },
+          "id": "5020"
+        },
+        {
+          "weapon": {
+            "image": "/images/weapon/e32ed68bb18628c5ede5816a2fbc2b8fcdd04124.png",
+            "thumbnail": "/images/weapon/d0145bac97eabd1046263c8856f3e14c68547a90.png",
+            "name": "Flingza Roller",
+            "id": "1030"
+          },
+          "id": "1030"
+        },
+        {
+          "weapon": {
+            "image": "/images/weapon/cdb032aa993f4836580ce4edac06de0138833299.png",
+            "thumbnail": "/images/weapon/331b77152310658a25ab934b91cf44e0c4912968.png",
+            "name": "Tenta Brella",
+            "id": "6010"
+          },
+          "id": "6010"
+        },
+        {
+          "weapon": {
+            "thumbnail": "/images/weapon/2ec8112dc3b29c82869810743473655f4427e65a.png",
+            "image": "/images/weapon/007fb7ed50e76dde495ffb0747421b50dfce8aa3.png",
+            "name": "Jet Squelcher",
+            "id": "90"
+          },
+          "id": "90"
+        }
+      ],
+      "start_time": 1641319200,
+      "end_time": 1641448800,
+      "stage": {
+        "name": "Marooner's Bay",
+        "image": "/images/coop_stage/e07d73b7d9f0c64e552b34a2e6c29b8564c63388.png"
+      }
+    }
+  ],
+  "schedules": [
+    {
+      "start_time": 1641168000,
+      "end_time": 1641297600
+    },
+    {
+      "end_time": 1641448800,
+      "start_time": 1641319200
+    },
+    {
+      "end_time": 1641600000,
+      "start_time": 1641470400
+    },
+    {
+      "end_time": 1641772800,
+      "start_time": 1641621600
+    },
+    {
+      "start_time": 1641794400,
+      "end_time": 1641924000
+    }
+  ]
+}
