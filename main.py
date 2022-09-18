@@ -45,7 +45,7 @@ def build_salmon_result(rota: splatoon3.SalmonRotation, t):
 {', '.join(rota.weapons)}""",
             "parse_mode": "HTML",
         },
-        "thumb_url": "https://leanny.github.io/stages/Fld_Shakeup_Cop.png",
+        "thumb_url": rota.thumbnail,
     }
 
 
