@@ -9,8 +9,13 @@ python = "^3.10"
 fastapi = "^0.70.1"
 uvicorn = {extras = ["standard"], version = "^0.16.0"}
 httpx = "^0.21.1"
+pendulum = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
