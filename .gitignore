@@ -1,3 +1,6 @@
 .venv
 .idea
 requirements.txt
+
+# Python
+__pycache__
